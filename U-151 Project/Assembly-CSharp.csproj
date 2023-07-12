@@ -58,9 +58,12 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PlayerCamera.cs" />
     <Compile Include="Assets\Scripts\Button.cs" />
+    <Compile Include="Assets\movecamera.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\Movable.cs" />
+    <Compile Include="Assets\movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
